@@ -27,7 +27,7 @@ p=re.compile("([a-fA-F\d]{32})")
 
 hashes=p.findall(artifacts)
 
-head={"x-apikey":"0cb36eda4f728d814c6a31c9ce36362d052f6f3a6ef83a3b0b746b56af69da36"}
+head={"x-apikey":"(YOUR API KEY HERE)"}
 
 ioc=domain+ip+hashes
 result=[]
