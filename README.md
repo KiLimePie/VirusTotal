@@ -17,7 +17,7 @@ This python script uses the VirusTotal API to scan log files for indicators of c
 ## Input Files
 
 * 'logs.txt': This is the log file that the script will scan. The script expects one log entry per line.
-* 'top-100-domains.txt': This file contains the top 100 most popular domains. The script will use this file to exclude low risk traffic from the logs.
+* 'top-100.txt': This file contains the top 100 most popular domains. The script will use this file to exclude low risk traffic from the logs.
 
 ## Example Files
 
